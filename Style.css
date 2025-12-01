@@ -214,3 +214,53 @@ section{
 .home-content .icon-box a:hover::before{
     width: 100%;
 }
+
+.about{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    padding-bottom: 6rem;
+}
+
+.heading{
+    font-size: 5rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.heading span{
+    color: var(--main-color);
+}
+
+.about .about-img{
+    /* position: relative; */
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .2rem solid var(--main-color);
+    overflow: hidden;
+}
+
+.about .about-img img{
+    width: 100%;
+} 
+
+.about .about-content{
+    text-align: center;
+}
+
+ .about .about-content h3{
+    font-size: 2.6rem;
+}
+
+.about .about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
