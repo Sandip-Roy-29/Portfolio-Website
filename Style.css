@@ -38,6 +38,7 @@ body{
     align-items: center;
     padding: 2rem 9%;
     position: fixed;
+    z-index: 100;
 }
 
 .header .nav-items a{
