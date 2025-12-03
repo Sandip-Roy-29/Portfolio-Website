@@ -1,7 +1,13 @@
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 let header = document.querySelector('header');
+let menuIcon = document.querySelector('#menu-icons');
+let navbar = document.querySelector('.nav-items');
 
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
 window.onscroll = () => {
 
     header.classList.toggle('sticky', window.scrollY > 100);
@@ -21,3 +27,8 @@ window.onscroll = () => {
         }
     });
 }
+
+
+
+menuIcon.classList.remove('bx-x');
+navbar.classList.remove('active');
