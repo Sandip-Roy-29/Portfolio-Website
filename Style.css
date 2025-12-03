@@ -41,6 +41,10 @@ body{
     z-index: 100;
 }
 
+.header.sticky{
+  background: var(--bg-color);
+}
+
 .header .nav-items a{
     margin-left: 3.5rem;
     font-size: 1.7rem;
